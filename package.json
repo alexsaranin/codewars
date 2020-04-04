@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha",
+    "test": "mocha --recursive ./src",
     "test:watch": "npx mocha -w"
   },
   "keywords": [],
